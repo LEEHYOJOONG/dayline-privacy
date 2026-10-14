@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>데이라인 개인정보처리방침</title>
+<style>
+  :root { --bg:#0E1219; --ink:#EEF1F5; --soft:#C9D0DA; --muted:#8B95A5; --amber:#F0B454; --line:#242D3A; }
+  body { margin:0; background:var(--bg); color:var(--soft); font:16px/1.75 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 80px; }
+  h1 { color:var(--ink); font-size:26px; margin:0 0 4px; }
+  h2 { color:var(--ink); font-size:18px; margin:36px 0 8px; padding-top:20px; border-top:1px solid var(--line); }
+  .date { color:var(--muted); font-size:14px; }
+  strong { color:var(--amber); font-weight:600; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--ink); font-weight:600; }
+  .todo { color:#F28B82; }
+</style>
+</head>
+<body>
+<main>
+<h1>데이라인 개인정보처리방침</h1>
+<p class="date">시행일: 2026년 10월 14일</p>
+
+<p>데이라인(이하 "앱")은 <strong>회원가입·로그인이 없고, 기록을 서버로 보내지 않습니다.</strong>
+러닝·걷기 기록은 모두 이용자의 휴대폰 안에만 저장됩니다. 이 방침은 앱이 휴대폰 안에서 어떤 정보를 다루는지,
+그리고 지도·결제처럼 외부 서비스가 관여하는 경우를 설명합니다.</p>
+
+<h2>1. 휴대폰 안에만 저장하는 정보</h2>
+<table>
+  <tr><th>정보</th><th>쓰는 곳</th></tr>
+  <tr><td>기록 중 위치(경로)·시각·거리</td><td>기록, 요약 화면, 하루 선, 경험치 계산</td></tr>
+  <tr><td>체중·성별·출생 연도·키(모두 선택 입력)</td><td>칼로리 추정(페이스별 MET × 체중 × 시간, 성별·출생 연도·키가 모두 있으면 기초대사량으로 보정)</td></tr>
+  <tr><td>메모·컨디션(선택 입력)</td><td>기록 요약</td></tr>
+  <tr><td>앱 설정(목표, 알람, 고른 캐릭터·코칭 프로그램 등)</td><td>앱 동작</td></tr>
+</table>
+<p>이 정보는 운영자를 포함한 누구에게도 전송되지 않습니다. 휴대폰 백업(구글 클라우드 백업·기기 간 이전)에서도 제외되어 있어
+<strong>앱을 삭제하면 모두 지워집니다.</strong> 기록은 앱 안에서 하나씩 지울 수 있습니다.</p>
+
+<h2>2. 위치 권한</h2>
+<p>앱은 <strong>"앱 사용 중에만"</strong> 위치 권한을 요청합니다. 이용자가 기록을 시작한 동안에만 위치를 받고,
+화면이 꺼져도 기록이 끊기지 않도록 상단 알림과 함께 동작합니다(포그라운드 서비스). 기록하지 않을 때는 위치를 받지 않으며,
+백그라운드 위치 권한은 요청하지 않습니다.</p>
+
+<h2>3. 외부 서비스</h2>
+<table>
+  <tr><th>서비스</th><th>언제</th><th>전달될 수 있는 정보</th></tr>
+  <tr><td>네이버 지도(NAVER Cloud Platform)</td><td>요약 화면에서 지도를 볼 때</td>
+      <td>지도 그림을 받아오기 위한 지도 영역(대략적인 위치)과 기기·네트워크 정보(IP 주소 등). 이동 경로 자체는 보내지 않고 휴대폰에서 지도 위에 그립니다.</td></tr>
+  <tr><td>구글 플레이 결제</td><td>코칭 이용권을 살 때·구매 내역을 확인할 때</td>
+      <td>결제는 구글이 처리합니다. 앱은 카드 번호 등 결제 정보를 받지 않으며, 구매했는지 여부만 확인합니다.</td></tr>
+</table>
+<p>각 서비스의 정보 처리는 해당 회사의 개인정보처리방침을 따릅니다.
+(<a style="color:var(--amber)" href="https://www.ncloud.com/policy/privacy/privacy">네이버클라우드</a>,
+<a style="color:var(--amber)" href="https://policies.google.com/privacy?hl=ko">구글</a>)</p>
+
+<h2>4. 내보내기·공유</h2>
+<p>GPX·TCX 파일 내보내기와 기록 카드 공유는 이용자가 직접 고른 앱·장소로만 전달됩니다.
+공유용 기록 카드에는 지도 대신 경로 모양만 들어가, 집 근처 지도가 함께 퍼지지 않게 했습니다.</p>
+
+<h2>5. 광고</h2>
+<p>앱은 무료로 제공하기 위해 <strong>구글 AdMob 광고</strong>를 보여 줍니다(화면 아래 배너, 기록 요약을 닫을 때 가끔 전면 광고).
+코칭 이용권을 구매하면 광고가 모두 사라집니다.</p>
+<p>광고를 보여 주는 과정에서 구글이 <strong>광고 ID, 기기·네트워크 정보(IP 주소 등), 광고를 보거나 누른 기록</strong>을 처리합니다.
+러닝·걷기 기록과 위치 경로는 광고에 쓰이지 않고 구글로 보내지 않습니다.
+구글의 정보 처리는 <a style="color:var(--amber)" href="https://policies.google.com/technologies/ads?hl=ko">구글 광고 정책</a>을 따릅니다.</p>
+<p>휴대폰 설정 › 개인정보 보호 › 광고에서 광고 ID를 삭제하거나 재설정할 수 있습니다.
+동의가 필요한 지역(유럽 등)에서는 처음 실행할 때 동의를 묻고, 앱 설정 › 광고 개인정보 설정에서 언제든 바꿀 수 있습니다.
+이용 분석(행동 추적) 도구는 넣지 않았습니다.</p>
+
+<h2>6. 아동</h2>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않습니다. 운영자는 이용자의 개인정보를 받지 않으므로 별도의 연령 확인을 하지 않습니다.</p>
+
+<h2>7. 바뀌는 경우</h2>
+<p>이 방침이 바뀌면 앱 업데이트 안내와 이 페이지로 알립니다. 특히 다른 이용자와 위치를 나누는 기능(커뮤니티 등)을 넣게 되면,
+그 전에 별도 동의를 받고 이 방침을 고칩니다.</p>
+
+<h2>8. 문의</h2>
+<p>운영자: 일구팔오<br>
+이메일: koreaithyojung@gmail.com</p>
+</main>
+</body>
+</html>
